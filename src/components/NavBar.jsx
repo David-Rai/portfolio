@@ -24,6 +24,8 @@ const NavBar = () => {
             "linear-gradient(to bottom, transparent, var(--color-bg))",
         }}
       />
+
+      {/* Navigation bar */}
       <nav
         className="
         z-50
@@ -48,7 +50,7 @@ const NavBar = () => {
         </a>
 
         {/* Divider */}
-        <div className="w-px h-5 bg-border opacity-60" />
+        <div className="w-[1.2px] h-[60%] bg-border opacity-70" />
 
         {/* Social links */}
         <div className="flex gap-1">
@@ -70,7 +72,7 @@ const NavBar = () => {
         </div>
 
         {/* Divider */}
-        <div className="w-px h-5 bg-border opacity-60" />
+        <div className="w-[1.2px] h-[60%] bg-border opacity-60" />
 
         {/* Theme toggle */}
         <button
