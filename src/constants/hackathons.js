@@ -22,16 +22,15 @@ export const hackathonList = [
     name: "Godawari Hacks",
     image: godawarihack,
     country: "Nepal,2026(24-hour hackathon)",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sequi sed, dolor illo iusto tempore nostrum odit iste nisi laborum",
+    details: "A privacy-first platform for anonymous AI chatting, including a doctor AI for health-related questions.",
     links: [
       {
         type: "website",
-        src: "https://github.com/david-rai",
+        src: "https://afnocare.netlify.app",
       },
       {
         type: "source",
-        src: "https://github.com/david-rai",
+        src: "https://github.com/David-Rai/Godawari-Hackathon",
       },
     ],
   },
