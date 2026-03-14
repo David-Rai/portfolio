@@ -7,7 +7,7 @@ const TopHeading = () => {
     <div className="w-full pt-16 md:pt-25 flex items-center justify-between pb-10">
       <div className="left w-full">
         <h1 className=" text-3xl md:text-6xl font-semibold">Hi,I`m David</h1>
-        <h2 className="md:text-xl text-md text-text-secondary py-2 text-left">
+      <h2 className="md:text-xl text-md text-text-secondary py-2 text-left">
           Building FullStack Applications that sloves.
         </h2>
         <h3 className="text-[14px] hover:underline cursor-pointer text-text font-medium flex items-center justify-start gap-2">

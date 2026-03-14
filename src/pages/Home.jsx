@@ -1,4 +1,5 @@
 import React from "react";
+import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Hackathons from "../components/Hackathons";
 import TopHeading from "../components/TopHeading";
@@ -15,6 +16,9 @@ const Home = () => {
 
       {/* About section */}
       <About></About>
+
+      {/* Experience */}
+      <Experience />
 
       {/* Skills section */}
       <Skills></Skills>
