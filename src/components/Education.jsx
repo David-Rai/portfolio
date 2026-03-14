@@ -1,5 +1,5 @@
 import React from "react";
-import SchoolLogo from "../assets/hero.png";
+import SchoolLogo from "../assets/schoollogo.jpg";
 
 const Education = () => {
   return (

@@ -8,7 +8,7 @@ const TopHeading = () => {
       <div className="left w-full">
         <h1 className="text-6xl font-semibold">Hi,I`m David</h1>
         <h2 className="text-xl text-text-secondary py-2">
-          Building FullStack Applications that engage
+          Building FullStack Applications that sloves.
         </h2>
         <h3 className="text-md hover:underline cursor-pointer text-text font-medium flex items-center justify-start gap-2">
           <Mail size={16} />
