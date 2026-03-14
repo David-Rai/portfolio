@@ -14,7 +14,7 @@
   --color-text: #ffffff;
   --color-bg: #08090a;
   --color-text-secondary: #737373;
-  --color-border: #e5e5e5;
+  --color-border: #262626;
 }
 
 @theme {
@@ -23,7 +23,9 @@
   --color-text-secondary: var(--color-text-secondary);
   --color-border: var(--color-border);
 }
-
+body,html{
+  background-color: var(--color-bg);
+}
 @layer base{
   h1{
     @apply text-2xl text-text font-semibold 
