@@ -1,4 +1,5 @@
 import React from "react";
+import  {Globe,Github} from 'lucide-react'
 import { projectList } from "../constants/projects";
 
 const MyProjects = () => {
@@ -55,6 +56,7 @@ const ProjectChild = ({ p }) => {
                 className="text-bg bg-text text-xs p-1 rounded-md font-medium"
                 target="_blank"
               >
+                {l.type === 'website' ? <Globe/> : <Github />}
                 {l.type}
               </a>
             );
