@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+*{
+    font-family: "Inter";
+}
+:root {
+  --color-bg: #ffffff;
+  --color-text: #08090a;
+  --color-text-secondary: #737373;
+  --color-border: #e5e5e5;
+}
+.dark {
+  --color-text: #ffffff;
+  --color-bg: #08090a;
+  --color-text-secondary: #737373;
+  --color-border: #e5e5e5;
+}
+
+@theme {
+  --color-bg: var(--color-bg);
+  --color-text: var(--color-text);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-border: var(--color-border);
+}
+
+@layer base{
+  h1{
+    @apply text-2xl text-text font-semibold 
+  }
+}
