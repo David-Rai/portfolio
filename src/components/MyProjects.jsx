@@ -10,10 +10,12 @@ const MyProjects = () => {
         <h1 className="bg-text text-bg py-1 px-3 rounded-md mb-5 text-[14px] font-normal">
           My Projects
         </h1>
+        <h1 className="text-5xl">Check Out my latest work</h1>
         <h2 className="text-text-secondary text-[20px]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          Ducimus voluptas sed similique nobis libero natus aut quaerat non
-          sint.
+          Some of my projects which sloved micro problems
+        </h2>
+        <h2 className="text-text-secondary text-[20px]">
+          and had high user engagement.
         </h2>
       </header>
 

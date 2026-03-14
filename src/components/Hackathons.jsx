@@ -13,10 +13,12 @@ const Hackathons = () => {
         <h1 className="bg-text text-bg py-1 px-3 rounded-md mb-5 text-[14px] font-normal">
           Hackathons
         </h1>
+        <h1 className="text-5xl">Build to slove</h1>
         <h2 className="text-text-secondary text-[20px] ">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          Ducimus voluptas sed similique nobis libero natus aut quaerat non
-          sint.
+          Participated in many hackathons for sloving realworld problems
+        </h2>
+        <h2 className="text-text-secondary text-[20px] ">
+          also i wanted to work under pressure.
         </h2>
       </header>
 
@@ -47,7 +49,7 @@ const HackathonChild = ({ p, index }) => {
       </div>
 
       <h1 className="text-text text-[16px pt-2">{name}</h1>
-      <h2>{country}</h2>
+      <h2 className="text-text-secondary text-[14px] font-medium ">{country}</h2>
       <p className="text-xs">{details}</p>
 
       {/* Links */}
@@ -58,11 +60,16 @@ const HackathonChild = ({ p, index }) => {
               <a
                 key={i}
                 href={l.src}
-                className="text-bg bg-text text-xs p-1 rounded-md font-medium"
+                className="text-bg bg-text flex text-[10px] items-center
+                             py-1 px-2 gap-1 hover:bg-text/60
+                              justify-center rounded-md font-medium"
                 target="_blank"
               >
-                {l.type === "website" ? <Globe /> : <Github />}
-
+                {l.type === "website" ? (
+                  <Globe size={12} />
+                ) : (
+                  <Github size={12} />
+                )}
                 {l.type}
               </a>
             );
