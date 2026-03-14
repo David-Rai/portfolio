@@ -10,7 +10,7 @@ const Hackathons = () => {
 
       {/* Top bar */}
       <header className="flex items-center justify-center flex-col pb-10">
-        <h1 className="bg-text text-bg py-1 px-3 rounded-md mb-5 text-[14px] font-normal">
+        <h1 className="bg-text text-bg py-1 px-3 rounded-md mb-2 text-[14px] font-normal">
           Hackathons
         </h1>
         <h1 className="text-5xl">Build to slove</h1>

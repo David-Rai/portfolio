@@ -7,7 +7,7 @@ const MyProjects = () => {
     <section className="w-full pt-16">
       {/* Top bar */}
       <header className="flex items-center justify-center flex-col pb-10">
-        <h1 className="bg-text text-bg py-1 px-3 rounded-md mb-5 text-[14px] font-normal">
+        <h1 className="bg-text text-bg py-1 px-3 rounded-md mb-2 text-[14px] font-normal">
           My Projects
         </h1>
         <h1 className="text-5xl">Check Out my latest work</h1>
@@ -33,7 +33,7 @@ const ProjectChild = ({ p }) => {
   const { name, details, techStacks, links } = p;
 
   return (
-    <div className="border-[1px] border-border rounded-md w-[48%] min-h-[180px] p-2">
+    <div className="border border-border rounded-md w-[48%] min-h-45 p-2">
       <h1 className="text-text text-[16px]">{name}</h1>
       <p className="text-xs">{details}</p>
 
