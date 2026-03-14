@@ -1,52 +1,63 @@
 export const projectList = [
   {
-    name: "LanChat",
+    name: "Learnwhilescrolling",
     details:
-      "A real-time chat application built with WebSockets, allowing users to send messages and join rooms instantly.",
-    techStacks: ["React", "Node.js", "Express", "Socket.IO", "MongoDB"],
+      "An engaging web app that replaces doomscrolling with bite-sized learning — explore topics, earn points for accuracy, climb leaderboards, and challenge friends in a fun, gamified scrolling experience.",
+    techStacks: ["React", "JavaScript", "Tailwind CSS", "Supabase"], // likely full-stack with realtime features
     links: [
-      { type: "website", src: "https://github.com/david-rai/LanChat" },
-      { type: "source", src: "https://github.com/david-rai/LanChat" },
+      { type: "website", src: "https://learnwhilescrolling.netlify.app" },
+      { type: "source", src: "https://github.com/david-rai/learnwhilescrolling" },
     ],
   },
   {
-    name: "YouTube Clone",
+    name: "Omegle Clone",
     details:
-      "A full-stack YouTube clone where users can watch, upload, and search for videos with React and Node.js backend.",
-    techStacks: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      "End-to-end Omegle-style video chat application using WebRTC for seamless peer-to-peer real-time video and audio communication without intermediaries.",
+    techStacks: ["JavaScript", "WebRTC", "Node.js", "React", "PeerJS or similar"],
     links: [
-      { type: "website", src: "https://github.com/david-rai/YouTubeClone" },
-      { type: "source", src: "https://github.com/david-rai/YouTubeClone" },
+      { type: "website", src: "https://omegla.netlify.app" },
+      { type: "source", src: "https://github.com/david-rai/omegle" },
     ],
   },
   {
-    name: "Netlify Clone",
+    name: "LANCHAT",
     details:
-      "A web app simulating Netlify's deployment platform, with drag-and-drop deployment and site management features.",
-    techStacks: ["React", "Node.js", "Express", "Tailwind CSS", "Firebase"],
+      "A lightweight, offline-capable local-area-network chat application that enables instant messaging and file sharing within the same network — no internet required. Perfect for classrooms, offices, or events.",
+    techStacks: ["JavaScript", "Node.js", "Socket.IO or WebSockets", "Electron or browser-based", "React"],
     links: [
-      { type: "website", src: "https://github.com/david-rai/NetlifyClone" },
-      { type: "source", src: "https://github.com/david-rai/NetlifyClone" },
+      // { type: "website", src: "https://github.com/david-rai/LANCHAT" },
+      { type: "source", src: "https://github.com/david-rai/LANCHAT" },
     ],
   },
   {
-    name: "Tic Tac Toe Multiplayer",
+    name: "SolFind",
     details:
-      "A multiplayer Tic Tac Toe game with WebSockets, allowing players to play in real-time over the network.",
-    techStacks: ["React", "Node.js", "Socket.IO", "CSS"],
+      "A decentralized platform for reporting lost items or missing people, browsing nearby reports, and earning SOL rewards for successful finds — built with blockchain integration for trust and incentives.",
+    techStacks: ["JavaScript", "React", "Solana Web3", "Node.js", "Tailwind CSS"],
     links: [
-      { type: "website", src: "https://github.com/david-rai/TicTacToe-Multiplayer" },
-      { type: "source", src: "https://github.com/david-rai/TicTacToe-Multiplayer" },
+      { type: "website", src: "https://solfind.netlify.app" },
+      { type: "source", src: "https://github.com/david-rai/solfind" },
     ],
   },
   {
-    name: "GloCulture",
+    name: "Biramarsingh",
     details:
-      "A global culture-sharing platform to explore, post, and interact with cultural experiences from around the world.",
-    techStacks: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      "A full-stack school website with features for announcements, student/teacher portals, resource sharing, and modern UI/UX — complete educational platform.",
+    techStacks: ["React", "Node.js", "Express", "MongoDB or Supabase", "Tailwind CSS"],
     links: [
-      { type: "website", src: "https://github.com/david-rai/GloCulture" },
-      { type: "source", src: "https://github.com/david-rai/GloCulture" },
+      { type: "website", src: "https://biramarsingh.netlify.app" },
+      { type: "source", src: "https://github.com/david-rai/biramarsingh" },
+    ],
+  },
+  // Optional: add one more recent/complete one if you want 6 total
+  {
+    name: "Wallpaper App",
+    details:
+      "A mobile-friendly wallpaper browsing and downloading app featuring 2000+ high-quality options, with smooth search, categories, and favorites — built for iOS/Android web view or React Native.",
+    techStacks: ["React", "JavaScript", "Tailwind CSS", "API integration"],
+    links: [
+      // { type: "website", src: "https://github.com/david-rai/Wallpaper-app" },
+      { type: "source", src: "https://github.com/david-rai/Wallpaper-app" },
     ],
   },
 ];

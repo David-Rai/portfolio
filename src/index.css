@@ -31,6 +31,6 @@ body,html{
     @apply text-2xl text-text font-semibold 
   }
   p{
-    @apply text-text-secondary
+    @apply text-text-secondary 
   }
 }
