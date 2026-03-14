@@ -3,7 +3,7 @@ import SchoolLogo from "../assets/schoollogo.jpg";
 
 const Education = () => {
   return (
-    <section className="w-full flex flex-col">
+    <section className="w-full flex flex-col pb-15">
       <h1 className="pb-5">Education</h1>
 
       {/* College */}
@@ -18,14 +18,14 @@ const Education = () => {
             />
           </div>
           <div>
-            <h1 className="text-[20px]">
+            <h1 className="text-sm md:text-[20px]">
               Shree Bir amarsingh of tehnical school
             </h1>
-            <p>Diploma in Computer Engineering</p>
+            <p className="text-xs  md:text-[16px]">Diploma in Computer Engineering</p>
           </div>
         </div>
 
-        <div className=" h-full">
+        <div className="text-xs  md:text-[16px]  h-full">
           <p>2023-2026</p>
         </div>
       </div>

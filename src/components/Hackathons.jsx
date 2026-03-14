@@ -14,10 +14,10 @@ const Hackathons = () => {
           Hackathons
         </h1>
         <h1 className="text-5xl">Build to slove</h1>
-        <h2 className="text-text-secondary text-[20px] ">
+        <h2 className="text-text-secondary text-[20px] text-center ">
           Participated in many hackathons for sloving realworld problems
         </h2>
-        <h2 className="text-text-secondary text-[20px] ">
+        <h2 className="text-text-secondary text-[20px] text-center ">
           also i wanted to work under pressure.
         </h2>
       </header>
@@ -38,7 +38,7 @@ const HackathonChild = ({ p, index }) => {
   // console.log(position);
 
   return (
-    <div className="border border-border rounded-md w-[48%] min-h-100 p-2">
+    <div className="border border-border rounded-md w-full sm:w-[48%] min-h-100 p-2">
       {/* Top Image banner */}
       <div className="h-[60%] w-full">
         <img
