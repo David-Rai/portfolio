@@ -1,5 +1,5 @@
 import React from "react";
-import SchoolLogo from "../assets/schoollogo.jpg";
+import SchoolLogo from "../assets/pratham.jpg";
 
 const Experience= () => {
   return (

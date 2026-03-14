@@ -6,14 +6,17 @@ export const projectList = [
     techStacks: ["React", "JavaScript", "Tailwind CSS", "Supabase"], // likely full-stack with realtime features
     links: [
       { type: "website", src: "https://learnwhilescrolling.netlify.app" },
-      { type: "source", src: "https://github.com/david-rai/learnwhilescrolling" },
+      {
+        type: "source",
+        src: "https://github.com/david-rai/learnwhilescrolling",
+      },
     ],
   },
   {
     name: "Omegle Clone",
     details:
       "End-to-end Omegle-style video chat application using WebRTC for seamless peer-to-peer real-time video and audio communication without intermediaries.",
-    techStacks: ["JavaScript", "WebRTC", "Node.js", "React", "PeerJS or similar"],
+    techStacks: ["JavaScript", "WebRTC", "Node.js", "React", "Socket.io"],
     links: [
       { type: "website", src: "https://omegla.netlify.app" },
       { type: "source", src: "https://github.com/david-rai/omegle" },
@@ -23,7 +26,7 @@ export const projectList = [
     name: "LANCHAT",
     details:
       "A lightweight, offline-capable local-area-network chat application that enables instant messaging and file sharing within the same network — no internet required. Perfect for classrooms, offices, or events.",
-    techStacks: ["JavaScript", "Node.js", "Socket.IO or WebSockets", "Electron or browser-based", "React"],
+    techStacks: ["JavaScript", "Node.js", "Socket.IO or WebSockets", "React"],
     links: [
       // { type: "website", src: "https://github.com/david-rai/LANCHAT" },
       { type: "source", src: "https://github.com/david-rai/LANCHAT" },
@@ -33,7 +36,13 @@ export const projectList = [
     name: "SolFind",
     details:
       "A decentralized platform for reporting lost items or missing people, browsing nearby reports, and earning SOL rewards for successful finds — built with blockchain integration for trust and incentives.",
-    techStacks: ["JavaScript", "React", "Solana Web3", "Node.js", "Tailwind CSS"],
+    techStacks: [
+      "JavaScript",
+      "React",
+      "Solana Web3",
+      "Node.js",
+      "Tailwind CSS",
+    ],
     links: [
       { type: "website", src: "https://solfind.netlify.app" },
       { type: "source", src: "https://github.com/david-rai/solfind" },
@@ -43,7 +52,7 @@ export const projectList = [
     name: "Biramarsingh",
     details:
       "A full-stack school website with features for announcements, student/teacher portals, resource sharing, and modern UI/UX — complete educational platform.",
-    techStacks: ["React", "Node.js", "Express", "MongoDB or Supabase", "Tailwind CSS"],
+    techStacks: ["React", "Node.js", "Express", "Supabase", "Tailwind CSS"],
     links: [
       { type: "website", src: "https://biramarsingh.netlify.app" },
       { type: "source", src: "https://github.com/david-rai/biramarsingh" },
@@ -54,7 +63,7 @@ export const projectList = [
     name: "Wallpaper App",
     details:
       "A mobile-friendly wallpaper browsing and downloading app featuring 2000+ high-quality options, with smooth search, categories, and favorites — built for iOS/Android web view or React Native.",
-    techStacks: ["React", "JavaScript", "Tailwind CSS", "API integration"],
+    techStacks: ["React native", "Expo", "Native wind"],
     links: [
       // { type: "website", src: "https://github.com/david-rai/Wallpaper-app" },
       { type: "source", src: "https://github.com/david-rai/Wallpaper-app" },
