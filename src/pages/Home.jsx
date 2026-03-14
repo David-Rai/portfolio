@@ -3,6 +3,7 @@ import Education from "../components/Education";
 import Hackathons from "../components/Hackathons";
 import TopHeading from "../components/TopHeading";
 import About from "../components/About";
+import NavBar from "../components/NavBar";
 import Skills from "../components/Skills";
 import MyProject from "../components/MyProjects";
 
@@ -26,6 +27,10 @@ const Home = () => {
 
       {/* Education */}
       <Education />
+
+      {/* {Navigation bar} */}
+      <NavBar />
+
     </main>
   );
 };

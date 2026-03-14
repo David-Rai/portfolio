@@ -35,10 +35,10 @@ const Hackathons = () => {
 const HackathonChild = ({ p, index }) => {
   const { name, details, country, links, image } = p;
   const position = index % 2 === 0 ? "right" : "left";
-  console.log(position);
+  // console.log(position);
 
   return (
-    <div className="border border-border rounded-md w-[48%] min-h-[350px] p-2">
+    <div className="border border-border rounded-md w-[48%] min-h-87.5 p-2">
       {/* Top Image banner */}
       <div className="h-[60%] w-full">
         <img

@@ -10,7 +10,7 @@ const Education = () => {
       <div className="flex items-center justify-between gap-2 h-full">
         <div className="flex gap-5">
           {/* logo */}
-          <div className="h-[60px] w-[60px]  rounded-full overflow-hidden">
+          <div className="h-15 w-15  rounded-full overflow-hidden">
             <img
               src={SchoolLogo}
               alt="logo"
