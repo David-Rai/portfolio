@@ -53,7 +53,7 @@ const ProjectChild = ({ p }) => {
       </div>
 
       {/* Links */}
-      <div className="flex gap-2">
+      <div className="flex gap-2 ">
         {links.length > 0 &&
           links.map((l, i) => {
             return (

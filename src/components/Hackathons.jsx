@@ -38,7 +38,7 @@ const HackathonChild = ({ p, index }) => {
   // console.log(position);
 
   return (
-    <div className="border border-border rounded-md w-[48%] min-h-87.5 p-2">
+    <div className="border border-border rounded-md w-[48%] min-h-100 p-2">
       {/* Top Image banner */}
       <div className="h-[60%] w-full">
         <img
