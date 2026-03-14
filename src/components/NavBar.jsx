@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const links = [
   {
-    icon: <Github></Github>,
+    icon: <Github />,
     src: "https://github.com/david-rai",
   },
   {
@@ -18,26 +18,28 @@ const links = [
   },
 ];
 const NavBar = () => {
-  const { theme, setTheme, toggleTheme } = useTheme();
-
-  useEffect(() => {
-    console.log(theme);
-    const html = document.documentElement;
-    if (theme === "dark") html.classList.add("dark");
-    else html.classList.remove("dark");
-  }, [theme]);
-
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <section className="w-full flex items-center justify-center fixed py-5 left-0 bottom-0">
-      <nav className="min-w-[300px] h-18 cursor-pointer bg-red-100 border border-border rounded-full">
+      <nav
+        className="min-w-[300px] h-18 cursor-pointer bg-red-100 border
+      flex items-center justify-center gap-3 hover:w-[350px] transition-all duration-200
+      border-border rounded-full"
+      >
         <a href={window.origin}>
           <House />
         </a>
-        {}
-        <div onClick={toggleTheme}>
-          <Sun></Sun>
+        <div className="flex gap-3">
+          {links.map((l, i) => {
+            return (
+              <a href={l.src} target="_blank" key={i}>
+                {l.icon}
+              </a>
+            );
+          })}
         </div>
+        <div onClick={toggleTheme}>{theme === "dark" ? <Moon /> : <Sun />}</div>
       </nav>
     </section>
   );

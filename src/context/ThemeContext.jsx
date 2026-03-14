@@ -8,7 +8,7 @@ export const ThemeProvider = ({ children }) => {
 
   //checking user system theme
   useEffect(() => {
-    console.log('gettting system them')
+    console.log("gettting system them");
     const systemPrefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)",
     ).matches;
@@ -24,8 +24,13 @@ export const ThemeProvider = ({ children }) => {
       window
         .matchMedia("(prefers-color-scheme: dark)")
         .removeEventListener("change", listener);
-  },[]);
+  }, []);
 
+  useEffect(() => {
+    const html = document.documentElement;
+    if (theme === "dark") html.classList.add("dark");
+    else html.classList.remove("dark");
+  }, [theme]);
 
   const toggleTheme = () =>
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
