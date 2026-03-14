@@ -10,7 +10,7 @@ const TopHeading = () => {
         <h2 className="text-xl text-text-secondary py-2">
           Building FullStack Applications that engage
         </h2>
-        <h3 className="text-md hover:underline cursor-pointer text-text flex items-center justify-start gap-2">
+        <h3 className="text-md hover:underline cursor-pointer text-text font-medium flex items-center justify-start gap-2">
           <Mail size={16} />
           davidkhaling123@gmail.com
         </h3>

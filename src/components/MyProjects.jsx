@@ -1,5 +1,5 @@
 import React from "react";
-import  {Globe,Github} from 'lucide-react'
+import { Globe, Github } from "lucide-react";
 import { projectList } from "../constants/projects";
 
 const MyProjects = () => {
@@ -7,7 +7,9 @@ const MyProjects = () => {
     <section className="w-full pt-16">
       {/* Top bar */}
       <header className="flex items-center justify-center flex-col pb-10">
-        <h1 className="bg-text text-bg p-2 rounded-md mb-5">My Projects</h1>
+        <h1 className="bg-text text-bg py-1 px-3 rounded-md mb-5 text-[14px] font-normal">
+          My Projects
+        </h1>
         <h2 className="text-text-secondary text-[20px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
           Ducimus voluptas sed similique nobis libero natus aut quaerat non
@@ -29,16 +31,19 @@ const ProjectChild = ({ p }) => {
   const { name, details, techStacks, links } = p;
 
   return (
-    <div className="border-[1px] border-border rounded-md w-[48%] h-[200px] p-2">
+    <div className="border-[1px] border-border rounded-md w-[48%] min-h-[180px] p-2">
       <h1 className="text-text text-[16px]">{name}</h1>
       <p className="text-xs">{details}</p>
 
       {/* Tech stacks list */}
-      <div className="flex py-2">
+      <div className="flex py-2 gap-1 flex-wrap">
         {techStacks.length > 0 &&
           techStacks.map((t, i) => {
             return (
-              <div key={i} className="text-text text-xs">
+              <div
+                key={i}
+                className="text-text text-[10px] py-1 px-2 rounded-md font-semibold capitalize bg-border"
+              >
                 {t}
               </div>
             );
@@ -53,10 +58,16 @@ const ProjectChild = ({ p }) => {
               <a
                 key={i}
                 href={l.src}
-                className="text-bg bg-text text-xs p-1 rounded-md font-medium"
+                className="text-bg bg-text flex text-[10px] items-center
+                py-1 px-2 gap-1 hover:bg-text/60
+                 justify-center rounded-md font-medium"
                 target="_blank"
               >
-                {l.type === 'website' ? <Globe/> : <Github />}
+                {l.type === "website" ? (
+                  <Globe size={12} />
+                ) : (
+                  <Github size={12} />
+                )}
                 {l.type}
               </a>
             );

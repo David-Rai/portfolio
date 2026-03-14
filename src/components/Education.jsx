@@ -4,7 +4,7 @@ import SchoolLogo from "../assets/hero.png";
 const Education = () => {
   return (
     <section className="w-full flex flex-col">
-      <h1>Education</h1>
+      <h1 className="pb-5">Education</h1>
 
       {/* College */}
       <div className="flex items-center justify-between gap-2 h-full">

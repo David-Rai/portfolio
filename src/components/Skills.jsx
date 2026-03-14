@@ -16,9 +16,11 @@ const Skills = () => {
 };
 
 const SkillChild = ({ s }) => {
-  return <div className="bg-text rounded-md flex items-center justify-center py-1 px-2">
-    <p className="text-bg text-xs font-semibold">{s}</p>
-  </div>;
+  return (
+    <div className="bg-text rounded-md flex items-center justify-center py-1 px-2 hover:bg-text/70 cursor-pointer">
+      <p className="text-bg text-xs font-semibold">{s}</p>
+    </div>
+  );
 };
 
 export default Skills;
