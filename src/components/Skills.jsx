@@ -3,7 +3,7 @@ import { skillList } from "../constants/skills";
 
 const Skills = () => {
   return (
-    <div className="w-full flex flex-col bg-amber-200">
+    <div className="w-full flex flex-col">
       <h1 className="pb-2">Skills</h1>
       {/* //Rendering all the skilss lists */}
       <div className="flex flex-wrap gap-2">

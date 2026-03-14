@@ -6,7 +6,7 @@ import MyProject from "../components/MyProjects";
 
 const Home = () => {
   return (
-    <main className="min-h-screen w-full bg-red-100 px-[25%]">
+    <main className="min-h-screen w-full px-[25%] bg-bg">
       {/* top heading section */}
       <TopHeading></TopHeading>
 

@@ -28,4 +28,7 @@
   h1{
     @apply text-2xl text-text font-semibold 
   }
+  p{
+    @apply text-text-secondary
+  }
 }

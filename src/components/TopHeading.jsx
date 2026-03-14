@@ -7,8 +7,8 @@ const TopHeading = () => {
     <div className="w-full pt-[100px] flex items-center justify-between pb-10">
       <div className="left w-full">
         <h1 className="text-6xl font-semibold">Hi,I`m David</h1>
-        <h2 className="text-xl">Building FullStack Applications that engage</h2>
-        <h3 className="text-md hover:underline cursor-pointer">
+        <h2 className="text-xl text-text-secondary">Building FullStack Applications that engage</h2>
+        <h3 className="text-md hover:underline cursor-pointer text-text">
           <Mail />
           davidkhaling123@gmail.com</h3>
       </div>
