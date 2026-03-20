@@ -8,8 +8,8 @@
 - Context Api for global theme + Local storage
 
 ## Screenshots
-<img src='./design/porfolio-ui.png'>
+<img src='./design/portfolio-ui.png'>
 
 --- 
-- If you liked it give a star to repo. 
+## If you liked it give a star to repo😊. 
 
